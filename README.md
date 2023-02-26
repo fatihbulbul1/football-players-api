@@ -16,13 +16,14 @@ Example player structure:
 
 ```json
 {
-  "number": "17", // jersey number
+  "number": "17", //jersey number
   "name": "Nicolò Zaniolo",
+  "position": "On Numara ",
   "team": " Galatasaray",
   "nations": ["İtalya"],
   "age": "23",
   "contract": "30 Haz 2027", //expiration date
-  "value": "30.00 mil. €"
+  "pd": "30.00 mil. €"
 }
 ```
 
