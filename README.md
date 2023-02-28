@@ -26,6 +26,32 @@ Example player structure:
   "pd": "30.00 mil. €"
 }
 ```
+---
+# Premier League Players API
+![](./screenshot-pl.png)
+
+# Overview
+
+- This API contains personal informations for 534 players of 20 Premier League clubs'.
+- API is current as of 28.02.2023.
+- API info is in English.
+
+# API Structure
+
+Example player structure:
+
+```json
+  {
+    "number": "9",
+    "name": "Erling Haaland",
+    "position": "Centre-Forward ",
+    "team": " Manchester City",
+    "nations": ["Norway", "England"],
+    "age": "22",
+    "contract": "Jun 30, 2027",
+    "value": "€170.00m"
+  }
+```
 
 ### Author
 
