@@ -16,14 +16,14 @@ Example player structure:
 
 ```json
 {
-  "number": "17", //jersey number
-  "name": "Nicolò Zaniolo",
-  "position": "On Numara ",
-  "team": " Galatasaray",
-  "nations": ["İtalya"],
-  "age": "23",
-  "contract": "30 Haz 2027", //expiration date
-  "pd": "30.00 mil. €"
+    "number": 17,
+    "name": "Nicolò Zaniolo",
+    "position": "On Numara",
+    "team": "Galatasaray",
+    "nations": ["İtalya"],
+    "age": 23,
+    "contract": "30 Haz 2027",
+    "value": "30.00 mil. €"
 }
 ```
 
@@ -74,14 +74,14 @@ Example player structure:
 
 ```json
 {
-  "number": "22",
-  "name": "Jude Bellingham",
-  "position": "Central Midfield ",
-  "team": " Borussia Dortmund",
-  "nations": ["England"],
-  "age": "19",
-  "contract": "Jun 30, 2025",
-  "value": "€110.00m"
+    "number": 22,
+    "name": "Jude Bellingham",
+    "position": "Central Midfield",
+    "team": "Borussia Dortmund",
+    "nations": ["England"],
+    "age": 19,
+    "contract": "Jun 30, 2025",
+    "value": "€110.00m"
 }
 ```
 
@@ -103,14 +103,14 @@ Example player structure:
 
 ```json
 {
-  "number": "30",
-  "name": "Lionel Messi",
-  "position": "Right Winger ",
-  "team": " Paris Saint-Germain",
-  "nations": ["Argentina", "Spain"],
-  "age": "35",
-  "contract": "Jun 30, 2023",
-  "value": "€50.00m"
+    "number": 30,
+    "name": "Lionel Messi",
+    "position": "Right Winger",
+    "team": "Paris Saint-Germain",
+    "nations": ["Argentina", "Spain"],
+    "age": 35,
+    "contract": "Jun 30, 2023",
+    "value": "€50.00m"
 }
 ```
 
@@ -132,14 +132,14 @@ Example player structure:
 
 ```json
 {
-  "number": "9",
-  "name": "Karim Benzema",
-  "position": "Centre-Forward ",
-  "team": " Real Madrid",
-  "nations": ["France", "Algeria"],
-  "age": "35",
-  "contract": "Jun 30, 2023",
-  "value": "€35.00m"
+    "number": 9,
+    "name": "Karim Benzema",
+    "position": "Centre-Forward",
+    "team": "Real Madrid",
+    "nations": ["France", "Algeria"],
+    "age": 35,
+    "contract": "Jun 30, 2023",
+    "value": "€35.00m"
 }
 ```
 
@@ -161,17 +161,22 @@ Example player structure:
 
 ```json
 {
-  "number": "11",
-  "name": "Zlatan Ibrahimović",
-  "position": "Centre-Forward ",
-  "team": " AC Milan",
-  "nations": ["Sweden", "Bosnia-Herzegovina"],
-  "age": "41",
-  "contract": "Jun 30, 2023",
-  "value": "€2.00m"
+    "number": 11,
+    "name": "Zlatan Ibrahimović",
+    "position": "Centre-Forward",
+    "team": "AC Milan",
+    "nations": ["Sweden", "Bosnia-Herzegovina"],
+    "age": 41,
+    "contract": "Jun 30, 2023",
+    "value": "€2.00m"
 }
 ```
+---
+# Changelog v1.1
 
+- "Number" and "age" fields are now integer.
+- ```U+00a0``` invisible characters removed.
+- Unnecessary spaces at "position" and "team" fields are removed.
 ### Author
 
 - LinkedIn - [Ömer Fatih Bülbül](https://www.linkedin.com/in/ömer-fatih-bülbül-74a890236/)
