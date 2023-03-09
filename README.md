@@ -8,7 +8,7 @@
 - API is current as of 25.02.2023.
 - API info is in Turkish.
 
-\*Due to the Kahramanmaraş earthquake that occurred, 2 football clubs (Hatayspor and Gaziantep FK) decided to withdraw from league.
+\*Due to the Kahramanmaraş earthquake that occurred, 2 football clubs (Hatayspor and Gaziantep FK) decided to withdraw from league and their **teamless** players are not included.
 
 # API Structure
 
